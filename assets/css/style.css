@@ -1,0 +1,202 @@
+*
+ {
+    margin: 0;
+    padding: 0;
+ }
+ /*-------body------*/
+ body {
+    margin: 1em;
+ }
+ /*-------header----*/
+ div.header {
+    display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 justify-content: space-between;
+ }
+ div.header a img.header__logo {
+    width: 25%;
+    height: 25%;
+ }
+div ul.navigation__list {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10em;
+    flex-wrap: wrap;
+    margin-left: -10em;    
+ }
+div ul li.navigation__item {
+    display: flex;
+} 
+div ul li a.navigation__link {
+    text-decoration: none;
+    padding: 1em;
+    color: #292b2c;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    align-items: center;
+}
+div.header button {
+    background-color: #c05326;
+    color: #fff;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 0.3em;
+    margin-right: 2em;
+    font-family: 'Source Sans Pro';
+    font-size: 105%;
+}
+/*------alert-text------*/
+div.alert {
+    font-family: sans-serif;
+    padding: 1.5em;
+    background-color: #f7eae4;
+    border-left: 5px solid #c05326;
+    border-radius: 5px;
+    font-size: 90%;
+    margin-bottom: 1.8em;
+    width: 95.3%;
+}
+div.alert span.text-highlight {
+    color: #c05326;
+    font-weight: bold;
+}
+/*--------main_image with block_text------*/
+div.hero {
+    width: 65vw;
+    height: 35vh;
+    background-image: url("../img/header-bike.jpg");
+    padding-left: 2em;
+    margin-bottom: 2em;
+}
+div.hero h1 {
+    color: #fff;
+    font-family: 'Source Sans Pro';
+    padding-top: 2em;
+    font-size: 250%;
+}
+div.hero p {
+    color: #fff;
+    font-family: 'Source Sans Pro';
+    padding-top: 0.8em;
+    font-size: 120%;
+}
+/*-------main_section buttons-----*/
+div.hero button {
+    background-color: #c05326;
+    color: #fff;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 0.3em;
+    font-family: 'Source Sans Pro';
+    font-size: 105%;
+    margin-top: 1.5em;
+}
+div.hero button.btn2 {
+    background-color: #fff;
+    color: #c05326;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 0.3em;
+    font-family: 'Source Sans Pro';
+    font-size: 105%;
+}
+div h2 {
+    font-family: 'Source Sans Pro';
+    font-size: 100%;
+}
+div h2.heading-underline {
+    margin: 0;
+    padding-bottom: 7px;
+    position: relative;
+    border-bottom: 2px solid #f7eae4;
+}
+ div h2.heading-underline:before {
+    position: absolute;
+    background: #c05326;
+    height: 2px;
+    content: '';
+    width: 100px;
+    bottom: -2px;
+    left: 0;
+  }
+ /*-------main_sub content------*/
+ div.main { 
+   width: 80%;
+  }
+  div.flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 102.2%;
+  }
+  div.article {
+    padding: 1em;
+    font-family: 'Source Sans Pro';
+    border: 2px solid #e4e4e4;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+  }
+ div p.article__summary {
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+ }
+ div p.article__read-more a{
+    text-decoration: none;
+    color: #c05326;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+ }
+ div.content  {
+    display: flex;
+    flex-direction: row;
+ }
+ /*-------sidebar_sub content------*/
+ div.sidebar {
+   width: 35%;
+   padding-left: 2em;
+   padding-right: 1em;
+ }
+ div div.article2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    padding: 1em;
+    font-family: 'Source Sans Pro';
+    border: 2px solid #e4e4e4;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+ }
+ /*-----sidebar_images-------*/
+ div.article2 img.article__thumbnail {
+    margin-right: 1em;
+    width: 15%;
+ }
+ div.sidebar a.article__title-link {
+    text-decoration: none;
+    color: #c05326;
+ }
+ /*------facebook_link----*/
+ div.sidebar a.facebook-link{
+    float: right;
+    color:#c05326;
+    font-family: sans-serif;
+    font-size: 75%;
+    padding-top: 2em;
+    font-weight: bold;
+ }
+ /*------footer--------*/
+ div.footer {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 80%;
+    border-top: 5px solid #f7eae4;
+    margin-top: 4em;
+ }
+ div div.footer__content {
+    padding-top: 2em;
+ }
+ div div.footer__content p {
+    padding-top: 0.5em;
+ } 
